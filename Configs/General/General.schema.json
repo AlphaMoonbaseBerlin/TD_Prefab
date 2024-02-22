@@ -1,10 +1,20 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
  "$id": "https://example.com/product.schema.json",
- "title": "Product",
- "description": "A product in the catalog",
+ "title": "TouchdesignerConfig",
+ "description": "A dynamic and schemabased jsonConfig for Touchdesigner",
  "type": "object",
  "properties": {
+  "NamedList": {
+   "description": "",
+   "type": "object",
+   "additionalProperties": {
+    "description": "",
+    "type": [
+     "string"
+    ]
+   }
+  },
   "Some_Integer": {
    "description": "",
    "type": [
@@ -15,7 +25,7 @@
   "Some_String": {
    "description": "",
    "type": [
-    "undefined"
+    "string"
    ]
   },
   "Subdata": {
@@ -25,7 +35,7 @@
     "Sub": {
      "description": "",
      "type": [
-      "undefined"
+      "integer"
      ]
     },
     "SubDict": {
@@ -48,7 +58,7 @@
    "items": {
     "description": "",
     "type": [
-     "undefined"
+     "string"
     ]
    }
   },
@@ -58,14 +68,14 @@
    "items": {
     "description": "",
     "type": [
-     "undefined"
+     "string"
     ]
    }
   },
   "PositiveValue": {
    "description": "",
    "type": [
-    "undefined"
+    "integer"
    ]
   },
   "Prefilled_Validated": {
@@ -74,7 +84,7 @@
    "items": {
     "description": "",
     "type": [
-     "undefined"
+     "integer"
     ]
    }
   }
