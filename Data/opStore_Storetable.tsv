@@ -1,4 +1,4 @@
 Shortcut	Operator
-Eventemitter	/project/EventEmitter
-Configs	/project/Configs
-Init	/project/Init
+Eventemitter	EventEmitter
+Configs	Configs
+Init	Init
